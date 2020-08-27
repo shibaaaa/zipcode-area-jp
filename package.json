@@ -1,7 +1,7 @@
 {
   "name": "zipcode-area-jp",
   "version": "1.0.0",
-  "description": "Displays the area of the zip code you entered.",
+  "description": "Displays the area of the Japanese zip code you entered.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
     "zip code",
     "postal code",
     "address",
+    "area",
     "jp",
     "japan"
   ],
