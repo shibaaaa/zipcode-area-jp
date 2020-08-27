@@ -1,12 +1,12 @@
-# zipcode-address-jp
-Display the address based on the Japanese zip code.
+# zipcode-area-jp
+Displays the area of the zip code you entered.
 
 ## Installation
 ```
-npm i zipcode-address-jp
+npm i zipcode-area-jp
 ```
 ## Usage
-Start with typing `zipcode-address-jp` on the command line.
+Start with typing `zipcode-area-jp` on the command line.
 ```
-Usage: zipcode-address-jp
+Usage: zipcode-area-jp
 ```

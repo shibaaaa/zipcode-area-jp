@@ -1,16 +1,16 @@
 {
-  "name": "zipcode-address-jp",
-  "version": "1.0.1",
-  "description": "Display the address based on the Japanese zip code.",
+  "name": "zipcode-area-jp",
+  "version": "1.0.0",
+  "description": "Displays the area of the zip code you entered.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "zipcode-address-jp": "./main.js"
+    "zipcode-area-jp": "./main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shibaaa647/zipcode-address-jp.git"
+    "url": "git+https://github.com/shibaaa647/zipcode-area-jp.git"
   },
   "keywords": [
     "zip code",
