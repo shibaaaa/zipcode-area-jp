@@ -1,5 +1,5 @@
 # zipcode-area-jp
-Displays the area of the zip code you entered.
+Displays the area of the Japanese zip code you entered.
 
 ## Installation
 ```
