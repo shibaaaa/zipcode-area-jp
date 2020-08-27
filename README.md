@@ -1,5 +1,5 @@
 # zipcode-address-jp
-Displays the address based on the Japanese zip code.
+Display the address based on the Japanese zip code.
 
 ## Installation
 ```
