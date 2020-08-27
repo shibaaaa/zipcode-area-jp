@@ -19,24 +19,28 @@ function displayAdress (zipcode) {
   })
 }
 
-inquirer
-  .prompt([
-    {
-      type: 'input',
-      name: 'zipcode',
-      message: 'Enter the japanese zip code.',
-      validate: (input) => {
-        if (
-          input.match(/^[0-9]{3}-[0-9]{4}$/) ||
-          input.match(/[0-9]{7}/)
-        ) {
-          return true;
-        } else {
-          return 'invalid value.';
+function exec () {
+  inquirer
+    .prompt([
+      {
+        type: 'input',
+        name: 'zipcode',
+        message: 'Enter the japanese zip code.',
+        validate: (input) => {
+          if (
+            input.match(/^[0-9]{3}-[0-9]{4}$/) ||
+            input.match(/[0-9]{7}/)
+          ) {
+            return true;
+          } else {
+            return 'invalid value.'
+          }
         }
       }
-    }
-  ])
-  .then((answers) => {
-    displayAdress(answers.zipcode)
-  });
+    ])
+    .then((answers) => {
+      displayAdress(answers.zipcode)
+    })
+}
+
+exec()

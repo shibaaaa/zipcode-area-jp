@@ -1,15 +1,26 @@
 {
-  "name": "make_npm",
+  "name": "zipcode-address-jp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Display the address based on the Japanese zip code.",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier-eslint --write 'src/**/*.js'"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibaaa647/zipcode-address-jp.git"
+  },
+  "keywords": [
+    "zip code",
+    "postal code",
+    "address",
+    "jp",
+    "japan"
+  ],
+  "author": "shibaaa",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",
