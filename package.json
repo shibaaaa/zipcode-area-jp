@@ -1,11 +1,12 @@
 {
   "name": "zipcode-address-jp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display the address based on the Japanese zip code.",
-  "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zipcode-address-jp": "./main.js"
   },
   "repository": {
     "type": "git",

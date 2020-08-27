@@ -1,5 +1,6 @@
-import request from 'request'
-import inquirer from 'inquirer'
+#! /usr/bin/env node
+const request = require('request')
+const inquirer = require('inquirer')
 
 function displayAdress (zipcode) {
   const options = {
