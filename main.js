@@ -2,7 +2,7 @@
 const request = require('request')
 const inquirer = require('inquirer')
 
-function displayAdress (zipcode) {
+function displayArea (zipcode) {
   const options = {
     url: `https://zipcloud.ibsnet.co.jp/api/search?zipcode=${zipcode}`,
     json: true
@@ -40,7 +40,7 @@ function exec () {
       }
     ])
     .then((answers) => {
-      displayAdress(answers.zipcode)
+      displayArea(answers.zipcode)
     })
 }
 
