@@ -5,8 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier-eslint --write 'src/**/*.js'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,17 +20,6 @@
   ],
   "author": "shibaaa",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.7.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^2.1.1",
-    "prettier-eslint": "^11.0.0",
-    "prettier-eslint-cli": "^5.0.0"
-  },
   "dependencies": {
     "inquirer": "^7.3.3",
     "request": "^2.88.2"
